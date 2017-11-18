@@ -51,4 +51,25 @@ public class FileExample {
             System.out.println(file);
         }
     }
+    /*
+     boolean mkdirs()  创建多级目录，创建此抽象路径名指定的目录，包括所有必需但不存在的父目录。
+     boolean canExecute()  判断文件是否可以执行
+　　 boolean canRead() 判断文件是否可读
+　　 boolean canWrite() 判断文件是否可写
+　　 boolean exist() 判断文件是否存在
+　　 boolean isDirectory() 判断文件是目录
+　　 boolean isFile() 判断是否是文件
+　　 boolean canHidden() 判断文件是否可见
+　　 boolean isAbsolute() 判断文件是否是绝对路劲 ，文件不存在也能判断
+    String getName()
+    String getPath()
+    String getAbsolutePath()
+    String getParent()//如果没有父目录返回null
+    long lastModified()//获取最后一次修改的时间
+    long length()
+    boolean renameTo(File f)
+    File[] liseRoots()//获取机器盘符
+    String[] list()
+    String[] list(FilenameFilter filter)
+    * */
 }
