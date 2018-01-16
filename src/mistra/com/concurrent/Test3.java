@@ -6,10 +6,10 @@ import java.io.IOException;
  * Created by Administrator on 2018/1/16/016.
  */
 public class Test3 {
-    static private int i = 10;
-    static private Object object = new Object();
+     private int i = 10;
+     private Object object = new Object();
 
-    static class MyThread extends Thread{
+     class MyThread extends Thread{
         @Override
         public void run(){
             synchronized (object){
@@ -29,8 +29,9 @@ public class Test3 {
     }
 
     public static void main(String [] args) throws IOException {
-        MyThread thread1 = new MyThread();
-        MyThread thread2 = new MyThread();
+        Test3 test = new Test3();
+        MyThread thread1 = test.new MyThread();
+        MyThread thread2 = test.new MyThread();
         thread1.start();
         thread2.start();
     }
