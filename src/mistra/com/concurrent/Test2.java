@@ -8,7 +8,7 @@ import java.util.concurrent.*;
 /**
  * Created by Administrator on 2018/1/16/016.
  */
-/*
+/**
     有返回值的线程测试
     可返回值的任务必须实现Callable接口，类似的，无返回值的任务必须Runnable接口。执行Callable任务后，可以获取一个Future的对象，
     在该对象上调用get就可以获取到Callable任务返回的Object了，再结合线程池接口ExecutorService就可以实现传说中有返回结果的多线程了
@@ -20,7 +20,7 @@ public class Test2 {
         int taskSize = 5;
         // 创建一个线程池，Executors类，提供了一系列工厂方法用于创先线程池，返回的线程池都实现了ExecutorService接口。
         ExecutorService pool = Executors.newFixedThreadPool(taskSize);//newFixedThreadPool:创建固定数目线程的线程池
-        /*
+        /**
 public static ExecutorService newCachedThreadPool()   >>>   创建一个可缓存的线程池，调用execute 将重用以前构造的线程（如果线程可用）。
     如果现有线程没有可用的，则创建一个新线程并添加到池中。终止并从缓存中移除那些已有 60 秒钟未被使用的线程。
 public static ExecutorService newSingleThreadExecutor()   >>>  创建一个单线程化的Executor。

@@ -7,7 +7,7 @@ import java.util.logging.StreamHandler;
 /**
  * Created by Administrator on 2018/1/16/016.
  */
-/*
+/**
     线程优先级测试
  */
 public class SimplePriorities implements Runnable{
