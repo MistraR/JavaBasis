@@ -5,7 +5,7 @@ package mistra.com.designpatterns.Factory;
  */
 
 /**
- * 根据客户的购买需求，销售经理从仓库得到对应型号的汽车
+ * 4s店仓库管理员，给其汽车型号就能得到对应的汽车
  */
 public class SSSSFactroy {
     public Car SalesManagerGetCar(String type){

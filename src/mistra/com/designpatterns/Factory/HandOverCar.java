@@ -5,7 +5,7 @@ package mistra.com.designpatterns.Factory;
  */
 
 /**
- * 客户经理移交汽车给顾客的方法
+ * 从仓库得到汽车
  */
 public class HandOverCar {
     private SSSSFactroy sf;
