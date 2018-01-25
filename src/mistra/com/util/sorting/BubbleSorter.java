@@ -7,7 +7,7 @@ import java.util.Comparator;
  */
 
 /**
- * 冒泡排序
+ * 冒泡排序高级用法
  */
 public class BubbleSorter implements Sorter{
     @Override
