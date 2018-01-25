@@ -51,7 +51,7 @@ public class FileExample {
             System.out.println(file);
         }
     }
-    /*
+    /**
      boolean mkdirs()  创建多级目录，创建此抽象路径名指定的目录，包括所有必需但不存在的父目录。
      boolean canExecute()  判断文件是否可以执行
 　　 boolean canRead() 判断文件是否可读

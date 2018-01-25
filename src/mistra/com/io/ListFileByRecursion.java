@@ -5,7 +5,7 @@ import java.io.File;
 /**
  * Created by Mistra.WR on 2017/11/16/016.
  */
-/*递归显示文件夹下所有文件*/
+/**递归显示文件夹下所有文件*/
 public class ListFileByRecursion {
     public static void main(String [] args){
         File f =new File("D:"+File.separator+"SSl证书");
