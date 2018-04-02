@@ -21,7 +21,7 @@ public class SimplePriorities implements Runnable{
     public String toString(){//覆盖本类的toString方法，以便下面打印线程名称
         return Thread.currentThread() + ":" + countDown;
     }
-    @Override
+
     public void run() {
         Thread.currentThread().setPriority(proitiy);//设置优先级
         while (true){
