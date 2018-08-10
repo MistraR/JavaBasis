@@ -5,10 +5,10 @@ package mistra.com.jdk8;
  * Time: 2018/8/9/009
  * Describe:
  */
-public class InterfaceTestImpl implements InterfaceTest{
+public class InterfaceTestImpl implements InterfaceTest {
 
     @Override
     public int sub(int a, int b) {
-        return 0;
+        return a - b;
     }
 }
