@@ -1,4 +1,4 @@
-package mistra.com.jdk8;
+package mistra.com.jdk8.interfaceTest;
 
 /**
  * Author: RoronoaZoro丶WangRui

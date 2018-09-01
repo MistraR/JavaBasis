@@ -1,4 +1,4 @@
-package mistra.com.jdk8;
+package mistra.com.jdk8.interfaceTest;
 
 import java.util.ArrayList;
 import java.util.List;
