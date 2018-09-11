@@ -5,7 +5,13 @@ package mistra.com.StringTest;
  */
 public class Test1 {
     public static void main(String [] args){
-        System.out.println(2<<3);//16
+        //16
+        System.out.println(2<<3);
         System.out.print(2>>3);
+        String str1 = "哈哈哈|嘻嘻嘻";
+        System.out.println(str1.length());
+        System.out.println(str1.indexOf("|"));
+        System.out.println(str1.substring(0,str1.indexOf("|")));
+        System.out.println(str1.substring(str1.indexOf("|")+1));
     }
 }
