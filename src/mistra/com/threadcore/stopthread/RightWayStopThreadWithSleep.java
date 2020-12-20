@@ -23,6 +23,7 @@ public class RightWayStopThreadWithSleep {
                 }
                 Thread.sleep(1000);
             } catch (InterruptedException e) {
+                System.out.println("任务被中断了！");
                 e.printStackTrace();
             }
         };
