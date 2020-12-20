@@ -4,7 +4,7 @@ package mistra.com.threadcore.stopthread;
  * @author Mistra
  * @ Version: 1.0
  * @ Time: 2020/12/20 下午2:27
- * @ Description:
+ * @ Description: run方法内没有sleep或wait方法时，停止线程
  * @ Copyright (c) Mistra,All Rights Reserved.
  * @ Github: https://github.com/MistraR
  * @ CSDN: https://blog.csdn.net/axela30w
